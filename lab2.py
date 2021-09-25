@@ -17,5 +17,5 @@ if average>=75:
 elif average<75:
     print("Failed")
 else:
-    print("Invalid!")
+    print("Invalid!!")
 
