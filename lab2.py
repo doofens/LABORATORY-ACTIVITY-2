@@ -11,3 +11,11 @@ fourth = float(input("Enter your final scores      :"))
 average = (first + second + third + fourth)/4
 print(" ")
 print("Your average grade is {}".format(average))
+print(" ")
+if average>=75:
+    print("Passed")
+elif average<75:
+    print("Failed")
+else:
+    print("Invalid!")
+
